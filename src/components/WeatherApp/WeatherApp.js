@@ -2,15 +2,11 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import SearchInp from '../SearchInput/SearchInp';
 import WeatherCard from '../WeatherCard/WeatherCard';
-
+import config from '../../config';
 const WeatherApp = () => {
     const [city, setCity] = useState('');
     const [weatherData, setWeatherData] = useState(null);
-    const apiKey = '59dbc65076a7e1abd807d9e61a11eebc';
-    //Please, use the endpoint api.openweathermap.org for your API calls
-    //- Example of API call:
-    //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=59dbc65076a7e1abd807d9e61a11eebc
-
+    const apiKey = config.secretApiKey;
     useEffect(() => {
         const fetchData = async () => {
             try {
