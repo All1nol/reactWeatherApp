@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79beccd5.css",
+    "main.js": "/static/js/main.6ac91176.js",
+    "static/media/Weather=Few Clouds, Moment=Night.png": "/static/media/Weather=Few Clouds, Moment=Night.2a54bdd7292c2eaa8210.png",
+    "static/media/Weather=Clear, Moment=Night.png": "/static/media/Weather=Clear, Moment=Night.2c6436386dfa490d18b0.png",
+    "static/media/Weather=Cloudy, Moment=Day.png": "/static/media/Weather=Cloudy, Moment=Day.0ef60b37d2558531ca10.png",
+    "static/media/Weather=Few Clouds, Moment=Day.png": "/static/media/Weather=Few Clouds, Moment=Day.ed87612812d834606b61.png",
+    "static/media/Weather=Rain, Moment=Day.png": "/static/media/Weather=Rain, Moment=Day.9e68a182d1855687a523.png",
+    "static/media/Weather=Clear, Moment=Day copy.png": "/static/media/Weather=Clear, Moment=Day copy.5b5fa48b3355324b4b30.png",
+    "static/media/image.png": "/static/media/image.009b4ed3761606a2c16b.png",
+    "static/media/Weather=Storm, Moment=Day.png": "/static/media/Weather=Storm, Moment=Day.08d50709002d3b8a3ed2.png",
+    "static/media/Background.png": "/static/media/Background.902b0ef7b7d12758b397.png",
+    "index.html": "/index.html",
+    "main.79beccd5.css.map": "/static/css/main.79beccd5.css.map",
+    "main.6ac91176.js.map": "/static/js/main.6ac91176.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79beccd5.css",
+    "static/js/main.6ac91176.js"
+  ]
+}
