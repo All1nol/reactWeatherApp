@@ -3,10 +3,12 @@ import axios from 'axios';
 import SearchInp from '../SearchInput/SearchInp';
 import WeatherCard from '../WeatherCard/WeatherCard';
 import config from '../../config';
+import './WeatherApp';
 const WeatherApp = () => {
     const [city, setCity] = useState('');
     const [weatherData, setWeatherData] = useState(null);
     const apiKey = config.secretApiKey;
+
     useEffect(() => {
         const fetchData = async () => {
             try {

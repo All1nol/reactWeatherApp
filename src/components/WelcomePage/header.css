@@ -1,0 +1,36 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    margin-top: 32px;
+  }
+  
+  .text-container {
+    text-align: center;
+    margin-top: 172px;
+    margin-bottom: 20px; 
+  }
+
+  .text-container .styled-text-1{
+    color: #FAFAFA;
+  }
+  
+  .text-container .styled-text-2{
+    color: #8FB2F5;
+  }
+
+  @media  (min-width: 768px){
+    .header{
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+  };
+    
+  

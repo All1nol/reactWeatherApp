@@ -1,0 +1,117 @@
+.weather-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .text-1{
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    .weather-card-container {
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .weather-card-container .weather-details {
+        text-align: center;
+    }
+
+    .text-1 img {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .weather-description {
+        font-size: 16px;
+    }
+}
+
+
+.weather-card-container img {
+    margin-bottom: 10px;
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+}
+
+.text-1 img {
+    margin-right: 10px;
+}
+
+.default-background {
+  background-image: url('../../media/image.png'); 
+}
+
+.background-01d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Clear, Moment=Day copy.png');
+}
+
+.background-02d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Day.png');
+}
+
+.background-03d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Cloudy, Moment=Day.png');
+}
+
+.background-04d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Cloudy, Moment=Day.png');
+}
+
+.background-09d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Rain, Moment=Day.png');
+}
+
+.background-11d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Storm, Moment=Day.png');
+}
+
+.background-10d{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Rain, Moment=Day.png');
+}
+
+
+.background-01n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Clear, Moment=Night.png');
+}
+
+.background-02n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Night.png');
+}
+
+.background-03n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Night.png');
+}
+
+.background-04n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Night.png');
+}
+
+.background-09n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Night.png');
+}
+
+.background-11n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Storm, Moment=Day.png');
+}
+
+.background-10n{
+  background-image: url('/home/omarmdv/Documents/Projects/reactWeatherApp/reactweatherapp/src/media/Weather=Few Clouds, Moment=Night.png');
+}
+
+
+
